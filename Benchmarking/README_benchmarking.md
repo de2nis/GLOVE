@@ -13,3 +13,7 @@ To run glmark2 benchmark use this command:
 ```
 <path to glmark2-es2 executable>/glmark2-es2 --reuse-context -f <path to GLOVE root>/Benchmarking/glmark/glmark2_benchmarks_options
 ```
+
+Note:
+* "reuse-context" option is needed at this phase since GLOVE does not fully support multiple contexts yet
+* glmark2\_benchmarks\_options contain a list of the so far supported benchmarks by GLOVE

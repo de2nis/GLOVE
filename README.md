@@ -77,7 +77,7 @@ GLOVE building can be configured according to the options listed in the followin
 | --- | --- | --- |
 | -a \| --arm-compile | _OFF_ | _Enable cross building for ARM platform_ |
 | -d \| --debug | _OFF_ | _Enable building Debug mode_ |
-| -i \| --install-path (dir) | _System Installation Path_ | _Set custom installation path_ |
+| -i \| --install-path (dir) | _System Installation Path (/usr/local)_ | _Set custom installation path_ |
 | -s \| --sysroot (dir) | _-_ | _Set sysroot for cross compilation_ |
 | -t \| --trace-build | _OFF_ | _Enable logs_ |
 | -u \| --vulkan-include-path (dir) | _System Include Path_ | _Set custom Vulkan include path_ |
