@@ -16,7 +16,6 @@
 
 #include "gtest/gtest.h"
 #include "resources/shader.h"
-#include "utils/globals.h"
 #include "utils/arrays.hpp"
 
 namespace Testing {

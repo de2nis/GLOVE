@@ -15,6 +15,7 @@ include_directories(${GLES_PATH}/source
                     ${GLES_PATH}/include
                     ${EGL_PATH}/include
                     ${GTEST_PATH}/include
+                    ${Vulkan_INCLUDE_DIR}
                     ${CMAKE_INSTALL_FULL_INCLUDEDIR})
 
 link_directories(${GTEST_PATH}/lib
